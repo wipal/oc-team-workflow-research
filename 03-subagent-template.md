@@ -1,4 +1,4 @@
-# 🤖 Subagent Template
+# 🤖 Subagent/Agent Template
 
 ## Agent Information
 
@@ -8,6 +8,30 @@
 | **Agent Name** | [Tên agent] |
 | **Created Date** | [YYYY-MM-DD] |
 | **Version** | 1.0 |
+
+---
+
+## 0. Platform Selection 🆕
+
+### Target Platform
+| Field | Value |
+|-------|-------|
+| **Platform** | Claude Code / OpenClaw / AntiGravity / Other |
+| **Reason** | [Tại sao chọn platform này?] |
+
+### Platform-Specific Notes
+- **Claude Code:** Use agent-team templates, .claude/ structure
+- **OpenClaw:** Use OpenClaw subagent config, skills system
+- **AntiGravity:** Use AntiGravity-specific configuration
+- **Other:** Document platform-specific setup
+
+### Cross-Platform Integration
+```yaml
+integration:
+  coordinator: Hina (OpenClaw)
+  communication: Telegram/Slack/Other
+  reporting_to: Wi
+```
 
 ---
 

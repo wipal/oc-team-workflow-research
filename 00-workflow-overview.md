@@ -1,5 +1,44 @@
 # 📋 Workflow Overview - Team Building System
 
+## 🏗️ Architecture Overview
+
+### Multi-Platform / Multi-Vendor Architecture
+
+```
+Wi (Human Owner)
+    ↓
+Hina (Coordinator - OpenClaw)
+    ↓
+┌─────────────────────────────────────────────────────┐
+│ PROJECT (Multi-Vendor)                              │
+├─────────────────────────────────────────────────────┤
+│ 📦 Claude Code                                      │
+│    ├── 🤖 FE Dev Agent                             │
+│    ├── 🤖 BE Dev Agent                             │
+│    └── 🤖 QA Agent                                 │
+│                                                     │
+│ 📦 OpenClaw (Hina's subagents)                      │
+│    ├── 🤖 Content Writer                           │
+│    └── 🤖 SA (Solution Architect)                  │
+│                                                     │
+│ 📦 AntiGravity (Future)                             │
+│    └── 🤖 Research Agent                           │
+│                                                     │
+│ 👤 Human: PM, PO, Client                           │
+└─────────────────────────────────────────────────────┘
+```
+
+### Supported Platforms
+
+| Platform | Best For | Skills Source |
+|----------|----------|---------------|
+| **Claude Code** | Code projects | agent-team templates |
+| **OpenClaw** | General tasks, coordination | OpenClaw skills |
+| **AntiGravity** | Research, analysis | Custom skills |
+| **Other AI Apps** | Specific use cases | App-specific |
+
+---
+
 ## Tổng Hợp Flow
 
 ### Step 0: Project Discussion

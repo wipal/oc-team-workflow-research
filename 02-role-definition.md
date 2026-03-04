@@ -6,8 +6,28 @@
 |-------|-------|
 | **Role Name** | [Tên vai trò] |
 | **Role Type** | AI Agent / Human / Hybrid |
+| **Target Platform** | Claude Code / OpenClaw / AntiGravity / Other 🆕 |
 | **Reports To** | [Báo cáo cho ai] |
 | **Version** | 1.0 |
+
+---
+
+## 0. Platform Selection 🆕
+
+### Why This Platform?
+[Tại sao role này nên ở platform này?]
+
+| Platform | Best For This Role |
+|----------|-------------------|
+| **Claude Code** | Code-intensive roles (FE, BE, QA) |
+| **OpenClaw** | General tasks, coordination, content |
+| **AntiGravity** | Research, deep analysis |
+| **Other** | Platform-specific needs |
+
+### Platform-Specific Skills
+- **Claude Code:** Use agent-team skill templates
+- **OpenClaw:** Use OpenClaw skills system
+- **AntiGravity:** Custom skill configuration
 
 ---
 
